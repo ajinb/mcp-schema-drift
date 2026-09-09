@@ -1,0 +1,25 @@
+{
+ "protocolVersion": "2024-11-05",
+ "serverInfo": {
+  "name": "example-servers/puppeteer",
+  "version": "0.1.0"
+ },
+ "tools": [
+  {
+   "name": "navigate",
+   "description": "Navigate to a URL",
+   "inputSchema": {
+    "type": "object",
+    "properties": {
+     "url": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ ],
+ "ok": true,
+ "package": "server-puppeteer",
+ "version": "0.1.0",
+ "published": "2024-11-19"
+}

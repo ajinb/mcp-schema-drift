@@ -1,0 +1,342 @@
+{
+ "rows": [
+  [
+   "server-brave-search",
+   8,
+   7,
+   0.42706964520367935,
+   2,
+   2,
+   0,
+   0,
+   0
+  ],
+  [
+   "server-everything",
+   27,
+   26,
+   20.92641261498029,
+   5,
+   13,
+   2,
+   1,
+   0
+  ],
+  [
+   "server-filesystem",
+   16,
+   15,
+   21.156373193166885,
+   9,
+   14,
+   0,
+   5,
+   5
+  ],
+  [
+   "server-github",
+   10,
+   9,
+   4.402102496714849,
+   9,
+   26,
+   0,
+   0,
+   0
+  ],
+  [
+   "server-gitlab",
+   3,
+   2,
+   4.664914586070959,
+   9,
+   9,
+   0,
+   0,
+   0
+  ],
+  [
+   "server-google-maps",
+   4,
+   3,
+   0.2956636005256242,
+   7,
+   7,
+   0,
+   0,
+   0
+  ],
+  [
+   "server-memory",
+   14,
+   13,
+   21.28777923784494,
+   9,
+   9,
+   0,
+   0,
+   0
+  ],
+  [
+   "server-postgres",
+   8,
+   7,
+   0.49277266754270693,
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   "server-puppeteer",
+   8,
+   7,
+   5.716162943495401,
+   1,
+   7,
+   1,
+   0,
+   0
+  ],
+  [
+   "server-sequential-thinking",
+   9,
+   8,
+   20.893561103810775,
+   1,
+   1,
+   1,
+   2,
+   2
+  ],
+  [
+   "server-slack",
+   9,
+   8,
+   5.091984231274639,
+   8,
+   8,
+   0,
+   1,
+   1
+  ]
+ ],
+ "breaking": [
+  [
+   "server-everything",
+   "2025.8.18",
+   "2025.9.12",
+   "2025-09-15",
+   "tool removed",
+   "startElicitation",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "2026-01-14",
+   "tool removed",
+   "add",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "2026-01-14",
+   "tool removed",
+   "longRunningOperation",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "2026-01-14",
+   "tool removed",
+   "printEnv",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "2026-01-14",
+   "tool removed",
+   "sampleLLM",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "2026-01-14",
+   "tool removed",
+   "getTinyImage",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "2026-01-14",
+   "tool removed",
+   "annotatedMessage",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "2026-01-14",
+   "tool removed",
+   "getResourceReference",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "2026-01-14",
+   "tool removed",
+   "getResourceLinks",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "2026-01-14",
+   "tool removed",
+   "structuredContent",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "2026-01-14",
+   "tool removed",
+   "zip",
+   ""
+  ],
+  [
+   "server-puppeteer",
+   "0.1.0",
+   "0.2.0",
+   "2024-11-21",
+   "tool removed",
+   "navigate",
+   ""
+  ],
+  [
+   "server-sequential-thinking",
+   "2026.7.4",
+   "2026.8.31",
+   "2026-08-31",
+   "optional became required",
+   "sequentialthinking",
+   "nextThoughtNeeded"
+  ]
+ ],
+ "semantic": [
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "2026-01-14",
+   "description changed",
+   "echo",
+   "21->28c"
+  ],
+  [
+   "server-filesystem",
+   "2025.3.28",
+   "2025.7.1",
+   "2025-07-01",
+   "description changed",
+   "read_file",
+   "263->395c"
+  ],
+  [
+   "server-filesystem",
+   "2025.7.1",
+   "2025.7.29",
+   "2025-07-31",
+   "description changed",
+   "list_allowed_directories",
+   "156->162c"
+  ],
+  [
+   "server-filesystem",
+   "2025.7.1",
+   "2025.7.29",
+   "2025-07-31",
+   "description changed",
+   "read_file",
+   "395->85c"
+  ],
+  [
+   "server-filesystem",
+   "2025.7.29",
+   "2025.8.18",
+   "2025-08-18",
+   "description changed",
+   "list_allowed_directories",
+   "162->248c"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "2025-11-25",
+   "description changed",
+   "search_files",
+   "332->424c"
+  ],
+  [
+   "server-filesystem",
+   "2026.7.4",
+   "2026.7.10",
+   "2026-07-10",
+   "description changed",
+   "read_media_file",
+   "114->234c"
+  ],
+  [
+   "server-sequential-thinking",
+   "2025.7.1",
+   "2025.11.25",
+   "2025-11-25",
+   "description changed",
+   "sequentialthinking",
+   "2780->2783c"
+  ],
+  [
+   "server-sequential-thinking",
+   "2025.11.25",
+   "2025.12.18",
+   "2025-12-18",
+   "description changed",
+   "sequentialthinking",
+   "2783->2781c"
+  ],
+  [
+   "server-slack",
+   "2025.1.17",
+   "2025.4.25",
+   "2025-04-25",
+   "description changed",
+   "slack_list_channels",
+   "53->68c"
+  ]
+ ],
+ "totals": {
+  "transitions": 105,
+  "breaking": 4,
+  "semantic": 9,
+  "semantic_only": 8
+ }
+}

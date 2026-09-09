@@ -1,0 +1,7 @@
+{
+ "ok": false,
+ "error": "no/failed initialize (proto 2024-11-05)",
+ "package": "server-slack",
+ "version": "0.1.0",
+ "published": "2024-11-19"
+}

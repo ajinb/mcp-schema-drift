@@ -1,0 +1,3469 @@
+[
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "create_one",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "create_one",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "type": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "create_one",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "type": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "create_two",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Company",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "create_two",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "type": "Person"
+     },
+     {
+      "name": "Acme",
+      "type": "Company"
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "create_two",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "type": "Person"
+     },
+     {
+      "name": "Acme",
+      "type": "Company"
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "relation",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Organization",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "relation",
+  "success": true,
+  "calls": 5,
+  "failed_calls": 3,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     "Alice",
+     "Acme"
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "relation",
+  "success": true,
+  "calls": 6,
+  "failed_calls": 4,
+  "first_call": [
+   "create_entities",
+   {
+    "Alice": {
+     "name": "Alice"
+    },
+    "Acme": {
+     "name": "Acme"
+    }
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "add_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entityName": "Alice",
+      "contents": [
+       "likes tea"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "add_obs",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entity": "Alice",
+      "observation": "likes tea"
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "add_obs",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 2,
+  "first_call": [
+   "add_observations",
+   {
+    "Alice": [
+     "likes tea"
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "open",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "Acme"
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "open",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "Acme"
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "open",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "open_nodes",
+   {
+    "node_name": "Acme"
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_entities",
+   {
+    "entityNames": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 4,
+  "failed_calls": 2,
+  "first_call": [
+   "delete_entities",
+   {
+    "entity_names": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "delete_entities",
+   {
+    "entities": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "chain",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "entityType": "Person",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "chain",
+  "success": true,
+  "calls": 4,
+  "failed_calls": 2,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "type": "Person"
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "chain",
+  "success": true,
+  "calls": 6,
+  "failed_calls": 4,
+  "first_call": [
+   "create_entities",
+   {
+    "Carol": {
+     "type": "Person"
+    }
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "open_nodes",
+   {
+    "names": [
+     "Alice"
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 4,
+  "failed_calls": 2,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 4,
+  "failed_calls": 2,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "Alice"
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "create_one",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "create_one",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "type": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "create_one",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "type": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "create_two",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Company",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "create_two",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 2,
+  "first_call": [
+   "create_entities",
+   {
+    "data": [
+     {
+      "name": "Bob",
+      "type": "Person"
+     },
+     {
+      "name": "Acme",
+      "type": "Company"
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "create_two",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "type": "Person"
+     },
+     {
+      "name": "Acme",
+      "type": "Company"
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "relation",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Organization",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "relation",
+  "success": true,
+  "calls": 4,
+  "failed_calls": 2,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice"
+     },
+     {
+      "name": "Acme"
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "relation",
+  "success": true,
+  "calls": 5,
+  "failed_calls": 3,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     "Alice",
+     "Acme"
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "add_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entityName": "Alice",
+      "contents": [
+       "likes tea"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "add_obs",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entity": "Alice",
+      "observation": "likes tea"
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "add_obs",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 2,
+  "first_call": [
+   "add_observations",
+   {
+    "Alice": [
+     "likes tea"
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "open",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "open_nodes",
+   {
+    "names": [
+     "Acme"
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "open",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "Acme"
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "open",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "open_nodes",
+   {
+    "nodes": [
+     "Acme"
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_entities",
+   {
+    "entityNames": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "delete_entities",
+   {
+    "entity_names": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "delete_entities",
+   {
+    "entities": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "chain",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "entityType": "Person",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "chain",
+  "success": true,
+  "calls": 4,
+  "failed_calls": 2,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "type": "Person"
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "chain",
+  "success": true,
+  "calls": 6,
+  "failed_calls": 4,
+  "first_call": [
+   "create_entities",
+   {
+    "Carol": {
+     "type": "Person"
+    }
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "open_nodes",
+   {
+    "names": [
+     "Alice"
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 4,
+  "failed_calls": 2,
+  "first_call": [
+   "open_nodes",
+   {
+    "names": [
+     "Alice"
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 5,
+  "failed_calls": 3,
+  "first_call": [
+   "open_nodes",
+   {
+    "parameter": [
+     "Alice"
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "create_one",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "create_one",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "type": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "create_one",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 2,
+  "first_call": [
+   "create_entities",
+   {
+    "Alice": {
+     "type": "Person",
+     "observations": [
+      "works at Acme"
+     ]
+    }
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "create_two",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Company",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "create_two",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 2,
+  "first_call": [
+   "create_entities",
+   {
+    "properties": [
+     {
+      "name": "Bob",
+      "type": "Person"
+     },
+     {
+      "name": "Acme",
+      "type": "Company"
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "create_two",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "type": "Person"
+     },
+     {
+      "name": "Acme",
+      "type": "Company"
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "relation",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Organization",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "relation",
+  "success": true,
+  "calls": 5,
+  "failed_calls": 3,
+  "first_call": [
+   "create_entities",
+   {
+    "parameters": [
+     {
+      "name": "Alice"
+     },
+     {
+      "name": "Acme"
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "relation",
+  "success": true,
+  "calls": 5,
+  "failed_calls": 3,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     "Alice",
+     "Acme"
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "add_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entityName": "Alice",
+      "contents": [
+       "likes tea"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "add_obs",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entity": "Alice",
+      "observation": "likes tea"
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "add_obs",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 2,
+  "first_call": [
+   "add_observations",
+   {
+    "Alice": [
+     "likes tea"
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "open",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "open_nodes",
+   {
+    "names": [
+     "Acme"
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "open",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 2,
+  "first_call": [
+   "open_nodes",
+   {
+    "parameter": [
+     "Acme"
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "open",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "open_nodes",
+   {
+    "nodes": [
+     "Acme"
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_entities",
+   {
+    "entityNames": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "delete_entities",
+   {
+    "parameter": [
+     {
+      "entity_name": "Bob"
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call": [
+   "delete_entities",
+   {
+    "entities": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "chain",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "entityType": "Person",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "chain",
+  "success": true,
+  "calls": 4,
+  "failed_calls": 2,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "type": "Person"
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "chain",
+  "success": true,
+  "calls": 5,
+  "failed_calls": 3,
+  "first_call": [
+   "create_entities",
+   {
+    "entity1": {
+     "name": "Carol",
+     "type": "Person"
+    }
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "open_nodes",
+   {
+    "names": [
+     "Alice"
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 4,
+  "failed_calls": 2,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 4,
+  "failed_calls": 2,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "Alice"
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "create_one",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "create_one",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "create_one",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "create_two",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Company",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "create_two",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Company",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "create_two",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Company",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "relation",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Organization",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "relation",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Organization",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "relation",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Organization",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "add_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entityName": "Alice",
+      "contents": [
+       "likes tea"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "add_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entityName": "Alice",
+      "contents": [
+       "likes tea"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "add_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entityName": "Alice",
+      "contents": [
+       "likes tea"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "open",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "Acme"
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "open",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "Acme"
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "open",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "Acme"
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_entities",
+   {
+    "entityNames": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_entities",
+   {
+    "entityNames": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_entities",
+   {
+    "entityNames": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "chain",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "entityType": "Person",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "chain",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "entityType": "Person",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "chain",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "entityType": "Person",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_observations",
+   {
+    "deletions": [
+     {
+      "entityName": "Alice",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_observations",
+   {
+    "deletions": [
+     {
+      "entityName": "Alice",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_observations",
+   {
+    "deletions": [
+     {
+      "entityName": "Alice",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "create_one",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "create_one",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "create_one",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "create_two",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Company",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "create_two",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Company",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "create_two",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Company",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "relation",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Organization",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "relation",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Organization",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "relation",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Organization",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "add_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entityName": "Alice",
+      "contents": [
+       "likes tea"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "add_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entityName": "Alice",
+      "contents": [
+       "likes tea"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "add_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entityName": "Alice",
+      "contents": [
+       "likes tea"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "open",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "Acme"
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "open",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "Acme"
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "open",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "Acme"
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_entities",
+   {
+    "entityNames": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_entities",
+   {
+    "entityNames": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_entities",
+   {
+    "entityNames": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "chain",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "entityType": "Person",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "chain",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "entityType": "Person",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "chain",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "entityType": "Person",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_observations",
+   {
+    "deletions": [
+     {
+      "entityName": "Alice",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_observations",
+   {
+    "deletions": [
+     {
+      "entityName": "Alice",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_observations",
+   {
+    "deletions": [
+     {
+      "entityName": "Alice",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "create_one",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "create_one",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "create_one",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "create_two",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Company",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "create_two",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Company",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "create_two",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Bob",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Company",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "relation",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Organization",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "relation",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Organization",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "relation",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Alice",
+      "entityType": "Person",
+      "observations": []
+     },
+     {
+      "name": "Acme",
+      "entityType": "Organization",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "add_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entityName": "Alice",
+      "contents": [
+       "likes tea"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "add_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entityName": "Alice",
+      "contents": [
+       "likes tea"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "add_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "add_observations",
+   {
+    "observations": [
+     {
+      "entityName": "Alice",
+      "contents": [
+       "likes tea"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "tea"
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "open",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "Acme"
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "open",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "Acme"
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "open",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "search_nodes",
+   {
+    "query": "Acme"
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_entities",
+   {
+    "entityNames": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_entities",
+   {
+    "entityNames": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "delete_ent",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_entities",
+   {
+    "entityNames": [
+     "Bob"
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "read_all",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "read_graph",
+   {}
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "chain",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "entityType": "Person",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "chain",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "entityType": "Person",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "chain",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call": [
+   "create_entities",
+   {
+    "entities": [
+     {
+      "name": "Carol",
+      "entityType": "Person",
+      "observations": []
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_observations",
+   {
+    "deletions": [
+     {
+      "entityName": "Alice",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_observations",
+   {
+    "deletions": [
+     {
+      "entityName": "Alice",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "delete_obs",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call": [
+   "delete_observations",
+   {
+    "deletions": [
+     {
+      "entityName": "Alice",
+      "observations": [
+       "works at Acme"
+      ]
+     }
+    ]
+   }
+  ],
+  "seed": 2
+ }
+]

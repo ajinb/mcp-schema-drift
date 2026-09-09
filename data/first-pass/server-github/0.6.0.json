@@ -1,0 +1,76 @@
+{
+ "protocolVersion": "2024-11-05",
+ "serverInfo": {
+  "name": "github-mcp-server",
+  "version": "0.1.0"
+ },
+ "tools": [
+  {
+   "name": "create_or_update_file",
+   "description": "Create or update a single file in a GitHub repository",
+   "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#"
+   }
+  },
+  {
+   "name": "search_repositories",
+   "description": "Search for GitHub repositories",
+   "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#"
+   }
+  },
+  {
+   "name": "create_repository",
+   "description": "Create a new GitHub repository in your account",
+   "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#"
+   }
+  },
+  {
+   "name": "get_file_contents",
+   "description": "Get the contents of a file or directory from a GitHub repository",
+   "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#"
+   }
+  },
+  {
+   "name": "push_files",
+   "description": "Push multiple files to a GitHub repository in a single commit",
+   "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#"
+   }
+  },
+  {
+   "name": "create_issue",
+   "description": "Create a new issue in a GitHub repository",
+   "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#"
+   }
+  },
+  {
+   "name": "create_pull_request",
+   "description": "Create a new pull request in a GitHub repository",
+   "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#"
+   }
+  },
+  {
+   "name": "fork_repository",
+   "description": "Fork a GitHub repository to your account or specified organization",
+   "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#"
+   }
+  },
+  {
+   "name": "create_branch",
+   "description": "Create a new branch in a GitHub repository",
+   "inputSchema": {
+    "$schema": "http://json-schema.org/draft-07/schema#"
+   }
+  }
+ ],
+ "ok": true,
+ "package": "server-github",
+ "version": "0.6.0",
+ "published": "2024-12-03"
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "mcp-schema-drift: protocol-level probing of published MCP server releases under controlled dependency resolution"
+message: "If you use this artifact, please cite the accompanying paper."
+type: software
+authors:
+  - family-names: Baby
+    given-names: Ajin
+repository-code: "https://github.com/ajinb/mcp-schema-drift"
+license: Apache-2.0
+date-released: 2026-09-09

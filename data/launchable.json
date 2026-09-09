@@ -1,0 +1,200 @@
+[
+ {
+  "name": "agent-install",
+  "weekly": 2017481,
+  "versions": 8,
+  "first": "2026-05-01",
+  "ok": false,
+  "tools": 0,
+  "empty": null
+ },
+ {
+  "name": "chrome-devtools-mcp",
+  "weekly": 1465302,
+  "versions": 61,
+  "first": "2025-05-13",
+  "ok": true,
+  "tools": 29,
+  "empty": 1
+ },
+ {
+  "name": "@upstash/context7-mcp",
+  "weekly": 807538,
+  "versions": 83,
+  "first": "2025-04-08",
+  "ok": true,
+  "tools": 2,
+  "empty": 0
+ },
+ {
+  "name": "mcp-handler",
+  "weekly": 708017,
+  "versions": 21,
+  "first": "2025-05-08",
+  "ok": false,
+  "tools": 0,
+  "empty": null
+ },
+ {
+  "name": "@pandacss/mcp",
+  "weekly": 247024,
+  "versions": 31,
+  "first": "2026-01-03",
+  "ok": false,
+  "tools": 0,
+  "empty": null
+ },
+ {
+  "name": "@notionhq/notion-mcp-server",
+  "weekly": 135702,
+  "versions": 21,
+  "first": "2025-04-03",
+  "ok": true,
+  "tools": 24,
+  "empty": 1
+ },
+ {
+  "name": "hostinger-api-mcp",
+  "weekly": 129844,
+  "versions": 185,
+  "first": "2025-04-11",
+  "ok": true,
+  "tools": 382,
+  "empty": 15
+ },
+ {
+  "name": "@supabase/mcp-server-supabase",
+  "weekly": 123329,
+  "versions": 60,
+  "first": "2025-03-28",
+  "ok": true,
+  "tools": 29,
+  "empty": 2
+ },
+ {
+  "name": "@azure/mcp",
+  "weekly": 104195,
+  "versions": 153,
+  "first": "2025-04-16",
+  "ok": false,
+  "tools": 0,
+  "empty": null
+ },
+ {
+  "name": "xcodebuildmcp",
+  "weekly": 87230,
+  "versions": 80,
+  "first": "2025-04-02",
+  "ok": false,
+  "tools": 0,
+  "empty": null
+ },
+ {
+  "name": "@sentry/mcp-server",
+  "weekly": 77113,
+  "versions": 44,
+  "first": "2025-04-24",
+  "ok": false,
+  "tools": 0,
+  "empty": null
+ },
+ {
+  "name": "nx-mcp",
+  "weekly": 74824,
+  "versions": 50,
+  "first": "2025-02-25",
+  "ok": true,
+  "tools": 1,
+  "empty": 0
+ },
+ {
+  "name": "@sap-ux/fiori-mcp-server",
+  "weekly": 66309,
+  "versions": 156,
+  "first": "2025-09-02",
+  "ok": true,
+  "tools": 9,
+  "empty": 1
+ },
+ {
+  "name": "@ui5/mcp-server",
+  "weekly": 62722,
+  "versions": 26,
+  "first": "2025-09-03",
+  "ok": true,
+  "tools": 10,
+  "empty": 3
+ },
+ {
+  "name": "agentation-mcp",
+  "weekly": 60395,
+  "versions": 6,
+  "first": "2026-02-04",
+  "ok": false,
+  "tools": 0,
+  "empty": null
+ },
+ {
+  "name": "@cap-js/mcp-server",
+  "weekly": 50175,
+  "versions": 5,
+  "first": "2025-09-03",
+  "ok": true,
+  "tools": 2,
+  "empty": 0
+ },
+ {
+  "name": "@microsoft/postgres-mcp",
+  "weekly": 35415,
+  "versions": 8,
+  "first": "2026-08-03",
+  "ok": false,
+  "tools": 0,
+  "empty": null
+ },
+ {
+  "name": "@hasna/mementos",
+  "weekly": 33768,
+  "versions": 155,
+  "first": "2026-03-10",
+  "ok": false,
+  "tools": 0,
+  "empty": null
+ },
+ {
+  "name": "@softeria/ms-365-mcp-server",
+  "weekly": 30333,
+  "versions": 295,
+  "first": "2025-04-03",
+  "ok": true,
+  "tools": 188,
+  "empty": 3
+ },
+ {
+  "name": "@currents/mcp",
+  "weekly": 29359,
+  "versions": 38,
+  "first": "2025-04-03",
+  "ok": true,
+  "tools": 39,
+  "empty": 0
+ },
+ {
+  "name": "@winor30/mcp-server-datadog",
+  "weekly": 26884,
+  "versions": 11,
+  "first": "2025-02-24",
+  "ok": true,
+  "tools": 21,
+  "empty": 1
+ },
+ {
+  "name": "@yawlabs/postgres-mcp",
+  "weekly": 25791,
+  "versions": 41,
+  "first": "2026-04-21",
+  "ok": true,
+  "tools": 23,
+  "empty": 3
+ }
+]

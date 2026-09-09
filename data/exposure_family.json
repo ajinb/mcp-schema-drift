@@ -1,0 +1,128 @@
+{
+ "server-filesystem": {
+  "total": 960788,
+  "loss": 11550,
+  "any": 11550,
+  "loss_versions": [
+   "0.5.1",
+   "0.6.0",
+   "0.6.1",
+   "0.6.2",
+   "2025.1.14",
+   "2025.3.28",
+   "2025.7.1",
+   "2025.7.29",
+   "2025.8.18",
+   "2025.8.21"
+  ],
+  "any_versions": [
+   "0.5.1",
+   "0.6.0",
+   "0.6.1",
+   "0.6.2",
+   "2025.1.14",
+   "2025.3.28",
+   "2025.7.1",
+   "2025.7.29",
+   "2025.8.18",
+   "2025.8.21"
+  ]
+ },
+ "server-everything": {
+  "total": 244158,
+  "loss": 0,
+  "any": 0,
+  "loss_versions": [],
+  "any_versions": []
+ },
+ "server-memory": {
+  "total": 158851,
+  "loss": 0,
+  "any": 0,
+  "loss_versions": [],
+  "any_versions": []
+ },
+ "server-sequential-thinking": {
+  "total": 244205,
+  "loss": 0,
+  "any": 14740,
+  "loss_versions": [],
+  "any_versions": [
+   "2026.7.4"
+  ]
+ },
+ "server-github": {
+  "total": 108001,
+  "loss": 6302,
+  "any": 6302,
+  "loss_versions": [
+   "0.5.1",
+   "0.6.0",
+   "0.6.1",
+   "0.6.2"
+  ],
+  "any_versions": [
+   "0.5.1",
+   "0.6.0",
+   "0.6.1",
+   "0.6.2"
+  ]
+ },
+ "server-gitlab": {
+  "total": 3812,
+  "loss": 3812,
+  "any": 3812,
+  "loss_versions": [
+   "0.6.2",
+   "2025.4.25",
+   "2025.4.7"
+  ],
+  "any_versions": [
+   "0.6.2",
+   "2025.4.25",
+   "2025.4.7"
+  ]
+ },
+ "server-slack": {
+  "total": 119165,
+  "loss": 0,
+  "any": 0,
+  "loss_versions": [],
+  "any_versions": []
+ },
+ "server-postgres": {
+  "total": 97372,
+  "loss": 0,
+  "any": 0,
+  "loss_versions": [],
+  "any_versions": []
+ },
+ "server-puppeteer": {
+  "total": 28524,
+  "loss": 0,
+  "any": 0,
+  "loss_versions": [],
+  "any_versions": []
+ },
+ "server-brave-search": {
+  "total": 18091,
+  "loss": 0,
+  "any": 0,
+  "loss_versions": [],
+  "any_versions": []
+ },
+ "server-google-maps": {
+  "total": 6553,
+  "loss": 0,
+  "any": 0,
+  "loss_versions": [],
+  "any_versions": []
+ },
+ "server-redis": {
+  "total": 1990,
+  "loss": 0,
+  "any": 0,
+  "loss_versions": [],
+  "any_versions": []
+ }
+}

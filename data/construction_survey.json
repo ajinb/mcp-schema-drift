@@ -1,0 +1,414 @@
+[
+ {
+  "pkg": "@modelcontextprotocol/server-filesystem",
+  "zod": "4.5.4",
+  "z2js": "3.25.2",
+  "sdk": "1.30.0",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 14,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 0,
+   "ListToolsRequestSchema handler": 0
+  },
+  "declares": {
+   "@modelcontextprotocol/sdk": "^1.30.0"
+  }
+ },
+ {
+  "pkg": "@modelcontextprotocol/server-everything",
+  "error": "install failed"
+ },
+ {
+  "pkg": "@modelcontextprotocol/server-memory",
+  "zod": "4.5.4",
+  "z2js": "3.25.2",
+  "sdk": "1.30.0",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 9,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 0,
+   "ListToolsRequestSchema handler": 0
+  },
+  "declares": {
+   "@modelcontextprotocol/sdk": "^1.30.0"
+  }
+ },
+ {
+  "pkg": "@modelcontextprotocol/server-sequential-thinking",
+  "zod": "4.5.4",
+  "z2js": "3.25.2",
+  "sdk": "1.30.0",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 1,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 0,
+   "ListToolsRequestSchema handler": 0
+  },
+  "declares": {
+   "@modelcontextprotocol/sdk": "^1.30.0"
+  }
+ },
+ {
+  "pkg": "@modelcontextprotocol/server-github",
+  "zod": "3.25.76",
+  "z2js": "3.25.2",
+  "sdk": "1.0.1",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 27,
+   "registerTool (SDK \u22651.19 path)": 0,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 0,
+   "ListToolsRequestSchema handler": 2
+  },
+  "declares": {
+   "zod": "^3.22.4",
+   "zod-to-json-schema": "^3.23.5",
+   "@modelcontextprotocol/sdk": "1.0.1"
+  }
+ },
+ {
+  "pkg": "@modelcontextprotocol/server-gitlab",
+  "zod": "4.5.4",
+  "z2js": "3.25.2",
+  "sdk": "1.0.1",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 10,
+   "registerTool (SDK \u22651.19 path)": 0,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 0,
+   "ListToolsRequestSchema handler": 2
+  },
+  "declares": {
+   "zod-to-json-schema": "^3.23.5",
+   "@modelcontextprotocol/sdk": "1.0.1"
+  }
+ },
+ {
+  "pkg": "@modelcontextprotocol/server-slack",
+  "zod": "3.25.76",
+  "z2js": null,
+  "sdk": "1.0.1",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 0,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 8,
+   "ListToolsRequestSchema handler": 2
+  },
+  "declares": {
+   "@modelcontextprotocol/sdk": "1.0.1"
+  }
+ },
+ {
+  "pkg": "@modelcontextprotocol/server-postgres",
+  "zod": "3.25.76",
+  "z2js": null,
+  "sdk": "1.0.1",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 0,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 1,
+   "ListToolsRequestSchema handler": 2
+  },
+  "declares": {
+   "@modelcontextprotocol/sdk": "1.0.1"
+  }
+ },
+ {
+  "pkg": "@modelcontextprotocol/server-puppeteer",
+  "zod": "3.25.76",
+  "z2js": null,
+  "sdk": "1.0.1",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 0,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 8,
+   "ListToolsRequestSchema handler": 2
+  },
+  "declares": {
+   "@modelcontextprotocol/sdk": "1.0.1"
+  }
+ },
+ {
+  "pkg": "@modelcontextprotocol/server-brave-search",
+  "zod": "3.25.76",
+  "z2js": null,
+  "sdk": "1.0.1",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 0,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 2,
+   "ListToolsRequestSchema handler": 2
+  },
+  "declares": {
+   "@modelcontextprotocol/sdk": "1.0.1"
+  }
+ },
+ {
+  "pkg": "@modelcontextprotocol/server-google-maps",
+  "zod": "3.25.76",
+  "z2js": null,
+  "sdk": "1.0.1",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 0,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 9,
+   "ListToolsRequestSchema handler": 2
+  },
+  "declares": {
+   "@modelcontextprotocol/sdk": "1.0.1"
+  }
+ },
+ {
+  "pkg": "@modelcontextprotocol/server-redis",
+  "zod": "4.5.4",
+  "z2js": "3.25.2",
+  "sdk": "1.30.0",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 0,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 4,
+   "ListToolsRequestSchema handler": 2
+  },
+  "declares": {
+   "@modelcontextprotocol/sdk": "^1.7.0"
+  }
+ },
+ {
+  "pkg": "chrome-devtools-mcp",
+  "zod": null,
+  "z2js": null,
+  "sdk": null,
+  "counts": {
+   "zodToJsonSchema (direct converter)": 1,
+   "registerTool (SDK \u22651.19 path)": 1,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 2,
+   "literal JSON Schema ('type':'object')": 447,
+   "ListToolsRequestSchema handler": 4
+  },
+  "declares": {}
+ },
+ {
+  "pkg": "@upstash/context7-mcp",
+  "zod": "4.5.4",
+  "z2js": null,
+  "sdk": null,
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 2,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 1,
+   "ListToolsRequestSchema handler": 0
+  },
+  "declares": {
+   "zod": "^4.4.3"
+  }
+ },
+ {
+  "pkg": "@notionhq/notion-mcp-server",
+  "zod": "3.24.1",
+  "z2js": null,
+  "sdk": "1.30.0",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 0,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 18,
+   "ListToolsRequestSchema handler": 0
+  },
+  "declares": {
+   "zod": "3.24.1",
+   "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+ },
+ {
+  "pkg": "hostinger-api-mcp",
+  "zod": "4.5.4",
+  "z2js": "3.25.2",
+  "sdk": "1.30.0",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 0,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 844,
+   "ListToolsRequestSchema handler": 2
+  },
+  "declares": {
+   "@modelcontextprotocol/sdk": "^1.10.0"
+  }
+ },
+ {
+  "pkg": "@supabase/mcp-server-supabase",
+  "zod": "4.5.4",
+  "z2js": null,
+  "sdk": null,
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 0,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 2,
+   "ListToolsRequestSchema handler": 0
+  },
+  "declares": {}
+ },
+ {
+  "pkg": "nx-mcp",
+  "zod": null,
+  "z2js": null,
+  "sdk": null,
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 13,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 36,
+   "ListToolsRequestSchema handler": 0
+  },
+  "declares": {}
+ },
+ {
+  "pkg": "@sap-ux/fiori-mcp-server",
+  "zod": null,
+  "z2js": null,
+  "sdk": null,
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 0,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 245,
+   "ListToolsRequestSchema handler": 0
+  },
+  "declares": {}
+ },
+ {
+  "pkg": "@ui5/mcp-server",
+  "zod": null,
+  "z2js": null,
+  "sdk": null,
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 1,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 0,
+   "ListToolsRequestSchema handler": 0
+  },
+  "declares": {
+   "zod": "^4.4.3",
+   "@modelcontextprotocol/sdk": "^1.30.0"
+  }
+ },
+ {
+  "pkg": "@cap-js/mcp-server",
+  "zod": "4.5.4",
+  "z2js": "3.25.2",
+  "sdk": "1.30.0",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 1,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 0,
+   "ListToolsRequestSchema handler": 0
+  },
+  "declares": {
+   "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+ },
+ {
+  "pkg": "@softeria/ms-365-mcp-server",
+  "zod": "3.25.76",
+  "z2js": "3.25.2",
+  "sdk": "1.30.0",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 3,
+   "registerTool (SDK \u22651.19 path)": 1,
+   "server.tool() (SDK path)": 9,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 3,
+   "ListToolsRequestSchema handler": 2
+  },
+  "declares": {
+   "zod": "^3.24.2",
+   "zod-to-json-schema": "^3.25.1",
+   "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+ },
+ {
+  "pkg": "@currents/mcp",
+  "zod": "4.5.4",
+  "z2js": "3.25.2",
+  "sdk": "1.30.0",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 78,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 0,
+   "ListToolsRequestSchema handler": 0
+  },
+  "declares": {
+   "zod": "^4.3.5",
+   "@modelcontextprotocol/sdk": "^1.28.0"
+  }
+ },
+ {
+  "pkg": "@winor30/mcp-server-datadog",
+  "zod": "3.25.76",
+  "z2js": "3.25.2",
+  "sdk": "1.26.0",
+  "counts": {
+   "zodToJsonSchema (direct converter)": 2,
+   "registerTool (SDK \u22651.19 path)": 0,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 0,
+   "literal JSON Schema ('type':'object')": 1,
+   "ListToolsRequestSchema handler": 2
+  },
+  "declares": {
+   "zod": "^3.24.3",
+   "zod-to-json-schema": "^3.24.5",
+   "@modelcontextprotocol/sdk": "1.26.0"
+  }
+ },
+ {
+  "pkg": "@yawlabs/postgres-mcp",
+  "zod": null,
+  "z2js": null,
+  "sdk": null,
+  "counts": {
+   "zodToJsonSchema (direct converter)": 0,
+   "registerTool (SDK \u22651.19 path)": 1,
+   "server.tool() (SDK path)": 0,
+   "z.toJSONSchema (zod4 native)": 4,
+   "literal JSON Schema ('type':'object')": 40,
+   "ListToolsRequestSchema handler": 13
+  },
+  "declares": {}
+ }
+]

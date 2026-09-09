@@ -1,0 +1,1649 @@
+[
+ {
+  "pkg": "server-brave-search",
+  "tool": "brave_web_search",
+  "desc_len": 332,
+  "props": [
+   "query",
+   "count",
+   "offset"
+  ],
+  "required": [
+   "query"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "query"
+  ],
+  "all_named": [
+   "offset"
+  ]
+ },
+ {
+  "pkg": "server-brave-search",
+  "tool": "brave_local_search",
+  "desc_len": 437,
+  "props": [
+   "query",
+   "count"
+  ],
+  "required": [
+   "query"
+  ],
+  "req_named": [
+   "query"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "query"
+  ]
+ },
+ {
+  "pkg": "server-everything",
+  "tool": "echo",
+  "desc_len": 28,
+  "props": [
+   "message"
+  ],
+  "required": [
+   "message"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "message"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-everything",
+  "tool": "get-annotated-message",
+  "desc_len": 75,
+  "props": [
+   "messageType",
+   "includeImage"
+  ],
+  "required": [
+   "messageType"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "messageType"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-everything",
+  "tool": "get-resource-links",
+  "desc_len": 76,
+  "props": [
+   "count"
+  ],
+  "required": [],
+  "req_named": [],
+  "req_unnamed": [],
+  "all_named": []
+ },
+ {
+  "pkg": "server-everything",
+  "tool": "get-resource-reference",
+  "desc_len": 60,
+  "props": [
+   "resourceType",
+   "resourceId"
+  ],
+  "required": [],
+  "req_named": [],
+  "req_unnamed": [],
+  "all_named": []
+ },
+ {
+  "pkg": "server-everything",
+  "tool": "get-structured-content",
+  "desc_len": 81,
+  "props": [
+   "location"
+  ],
+  "required": [
+   "location"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "location"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-everything",
+  "tool": "get-sum",
+  "desc_len": 30,
+  "props": [
+   "a",
+   "b"
+  ],
+  "required": [
+   "a",
+   "b"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "a",
+   "b"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-everything",
+  "tool": "gzip-file-as-resource",
+  "desc_len": 247,
+  "props": [
+   "name",
+   "data",
+   "outputType"
+  ],
+  "required": [],
+  "req_named": [],
+  "req_unnamed": [],
+  "all_named": [
+   "data"
+  ]
+ },
+ {
+  "pkg": "server-everything",
+  "tool": "trigger-long-running-operation",
+  "desc_len": 60,
+  "props": [
+   "duration",
+   "steps"
+  ],
+  "required": [],
+  "req_named": [],
+  "req_unnamed": [],
+  "all_named": []
+ },
+ {
+  "pkg": "server-everything",
+  "tool": "simulate-research-query",
+  "desc_len": 270,
+  "props": [
+   "topic",
+   "ambiguous"
+  ],
+  "required": [
+   "topic"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "topic"
+  ],
+  "all_named": [
+   "ambiguous"
+  ]
+ },
+ {
+  "pkg": "server-filesystem",
+  "tool": "read_file",
+  "desc_len": 85,
+  "props": [
+   "path",
+   "tail",
+   "head"
+  ],
+  "required": [
+   "path"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "path"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-filesystem",
+  "tool": "read_text_file",
+  "desc_len": 457,
+  "props": [
+   "path",
+   "tail",
+   "head"
+  ],
+  "required": [
+   "path"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "path"
+  ],
+  "all_named": [
+   "tail",
+   "head"
+  ]
+ },
+ {
+  "pkg": "server-filesystem",
+  "tool": "read_media_file",
+  "desc_len": 234,
+  "props": [
+   "path"
+  ],
+  "required": [
+   "path"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "path"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-filesystem",
+  "tool": "read_multiple_files",
+  "desc_len": 324,
+  "props": [
+   "paths"
+  ],
+  "required": [
+   "paths"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "paths"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-filesystem",
+  "tool": "write_file",
+  "desc_len": 228,
+  "props": [
+   "path",
+   "content"
+  ],
+  "required": [
+   "path",
+   "content"
+  ],
+  "req_named": [
+   "content"
+  ],
+  "req_unnamed": [
+   "path"
+  ],
+  "all_named": [
+   "content"
+  ]
+ },
+ {
+  "pkg": "server-filesystem",
+  "tool": "edit_file",
+  "desc_len": 185,
+  "props": [
+   "path",
+   "edits",
+   "dryRun"
+  ],
+  "required": [
+   "path",
+   "edits"
+  ],
+  "req_named": [
+   "edits"
+  ],
+  "req_unnamed": [
+   "path"
+  ],
+  "all_named": [
+   "edits"
+  ]
+ },
+ {
+  "pkg": "server-filesystem",
+  "tool": "create_directory",
+  "desc_len": 310,
+  "props": [
+   "path"
+  ],
+  "required": [
+   "path"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "path"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-filesystem",
+  "tool": "list_directory",
+  "desc_len": 309,
+  "props": [
+   "path"
+  ],
+  "required": [
+   "path"
+  ],
+  "req_named": [
+   "path"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "path"
+  ]
+ },
+ {
+  "pkg": "server-filesystem",
+  "tool": "list_directory_with_sizes",
+  "desc_len": 323,
+  "props": [
+   "path",
+   "sortBy"
+  ],
+  "required": [
+   "path"
+  ],
+  "req_named": [
+   "path"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "path"
+  ]
+ },
+ {
+  "pkg": "server-filesystem",
+  "tool": "directory_tree",
+  "desc_len": 360,
+  "props": [
+   "path",
+   "excludePatterns"
+  ],
+  "required": [
+   "path"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "path"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-filesystem",
+  "tool": "move_file",
+  "desc_len": 325,
+  "props": [
+   "source",
+   "destination"
+  ],
+  "required": [
+   "source",
+   "destination"
+  ],
+  "req_named": [
+   "source",
+   "destination"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "source",
+   "destination"
+  ]
+ },
+ {
+  "pkg": "server-filesystem",
+  "tool": "search_files",
+  "desc_len": 424,
+  "props": [
+   "path",
+   "pattern",
+   "excludePatterns"
+  ],
+  "required": [
+   "path",
+   "pattern"
+  ],
+  "req_named": [
+   "pattern"
+  ],
+  "req_unnamed": [
+   "path"
+  ],
+  "all_named": [
+   "pattern"
+  ]
+ },
+ {
+  "pkg": "server-filesystem",
+  "tool": "get_file_info",
+  "desc_len": 296,
+  "props": [
+   "path"
+  ],
+  "required": [
+   "path"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "path"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "create_or_update_file",
+  "desc_len": 53,
+  "props": [
+   "owner",
+   "repo",
+   "path",
+   "content",
+   "message",
+   "branch",
+   "sha"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "path",
+   "content",
+   "message",
+   "branch"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "path",
+   "content",
+   "message",
+   "branch"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "search_repositories",
+  "desc_len": 30,
+  "props": [
+   "query",
+   "page",
+   "perPage"
+  ],
+  "required": [
+   "query"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "query"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "create_repository",
+  "desc_len": 46,
+  "props": [
+   "name",
+   "description",
+   "private",
+   "autoInit"
+  ],
+  "required": [
+   "name"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "name"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "get_file_contents",
+  "desc_len": 64,
+  "props": [
+   "owner",
+   "repo",
+   "path",
+   "branch"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "path"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "path"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "push_files",
+  "desc_len": 61,
+  "props": [
+   "owner",
+   "repo",
+   "branch",
+   "files",
+   "message"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "branch",
+   "files",
+   "message"
+  ],
+  "req_named": [
+   "files"
+  ],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "branch",
+   "message"
+  ],
+  "all_named": [
+   "files"
+  ]
+ },
+ {
+  "pkg": "server-github",
+  "tool": "create_issue",
+  "desc_len": 41,
+  "props": [
+   "owner",
+   "repo",
+   "title",
+   "body",
+   "assignees",
+   "milestone",
+   "labels"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "title"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "title"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "create_pull_request",
+  "desc_len": 48,
+  "props": [
+   "owner",
+   "repo",
+   "title",
+   "body",
+   "head",
+   "base",
+   "draft",
+   "maintainer_can_modify"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "title",
+   "head",
+   "base"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "title",
+   "head",
+   "base"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "fork_repository",
+  "desc_len": 66,
+  "props": [
+   "owner",
+   "repo",
+   "organization"
+  ],
+  "required": [
+   "owner",
+   "repo"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo"
+  ],
+  "all_named": [
+   "organization"
+  ]
+ },
+ {
+  "pkg": "server-github",
+  "tool": "create_branch",
+  "desc_len": 42,
+  "props": [
+   "owner",
+   "repo",
+   "branch",
+   "from_branch"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "branch"
+  ],
+  "req_named": [
+   "branch"
+  ],
+  "req_unnamed": [
+   "owner",
+   "repo"
+  ],
+  "all_named": [
+   "branch"
+  ]
+ },
+ {
+  "pkg": "server-github",
+  "tool": "list_commits",
+  "desc_len": 54,
+  "props": [
+   "owner",
+   "repo",
+   "sha",
+   "page",
+   "perPage"
+  ],
+  "required": [
+   "owner",
+   "repo"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "list_issues",
+  "desc_len": 57,
+  "props": [
+   "owner",
+   "repo",
+   "direction",
+   "labels",
+   "page",
+   "per_page",
+   "since",
+   "sort",
+   "state"
+  ],
+  "required": [
+   "owner",
+   "repo"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "update_issue",
+  "desc_len": 47,
+  "props": [
+   "owner",
+   "repo",
+   "issue_number",
+   "title",
+   "body",
+   "assignees",
+   "milestone",
+   "labels",
+   "state"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "issue_number"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "issue_number"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "add_issue_comment",
+  "desc_len": 34,
+  "props": [
+   "owner",
+   "repo",
+   "issue_number",
+   "body"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "issue_number",
+   "body"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "issue_number",
+   "body"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "search_code",
+  "desc_len": 42,
+  "props": [
+   "q",
+   "order",
+   "page",
+   "per_page"
+  ],
+  "required": [
+   "q"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "q"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "search_issues",
+  "desc_len": 62,
+  "props": [
+   "q",
+   "order",
+   "page",
+   "per_page",
+   "sort"
+  ],
+  "required": [
+   "q"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "q"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "search_users",
+  "desc_len": 26,
+  "props": [
+   "q",
+   "order",
+   "page",
+   "per_page",
+   "sort"
+  ],
+  "required": [
+   "q"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "q"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "get_issue",
+  "desc_len": 55,
+  "props": [
+   "owner",
+   "repo",
+   "issue_number"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "issue_number"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "issue_number"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "get_pull_request",
+  "desc_len": 38,
+  "props": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "list_pull_requests",
+  "desc_len": 40,
+  "props": [
+   "owner",
+   "repo",
+   "state",
+   "head",
+   "base",
+   "sort",
+   "direction",
+   "per_page",
+   "page"
+  ],
+  "required": [
+   "owner",
+   "repo"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "create_pull_request_review",
+  "desc_len": 33,
+  "props": [
+   "owner",
+   "repo",
+   "pull_number",
+   "commit_id",
+   "body",
+   "event",
+   "comments"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "pull_number",
+   "body",
+   "event"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "pull_number",
+   "body",
+   "event"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "merge_pull_request",
+  "desc_len": 20,
+  "props": [
+   "owner",
+   "repo",
+   "pull_number",
+   "commit_title",
+   "commit_message",
+   "merge_method"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "get_pull_request_files",
+  "desc_len": 47,
+  "props": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "get_pull_request_status",
+  "desc_len": 63,
+  "props": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "update_pull_request_branch",
+  "desc_len": 73,
+  "props": [
+   "owner",
+   "repo",
+   "pull_number",
+   "expected_head_sha"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "get_pull_request_comments",
+  "desc_len": 41,
+  "props": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-github",
+  "tool": "get_pull_request_reviews",
+  "desc_len": 33,
+  "props": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "required": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "owner",
+   "repo",
+   "pull_number"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-google-maps",
+  "tool": "maps_geocode",
+  "desc_len": 46,
+  "props": [
+   "address"
+  ],
+  "required": [
+   "address"
+  ],
+  "req_named": [
+   "address"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "address"
+  ]
+ },
+ {
+  "pkg": "server-google-maps",
+  "tool": "maps_reverse_geocode",
+  "desc_len": 35,
+  "props": [
+   "latitude",
+   "longitude"
+  ],
+  "required": [
+   "latitude",
+   "longitude"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "latitude",
+   "longitude"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-google-maps",
+  "tool": "maps_search_places",
+  "desc_len": 41,
+  "props": [
+   "query",
+   "location",
+   "radius"
+  ],
+  "required": [
+   "query"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "query"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-google-maps",
+  "tool": "maps_place_details",
+  "desc_len": 47,
+  "props": [
+   "place_id"
+  ],
+  "required": [
+   "place_id"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "place_id"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-google-maps",
+  "tool": "maps_distance_matrix",
+  "desc_len": 72,
+  "props": [
+   "origins",
+   "destinations",
+   "mode"
+  ],
+  "required": [
+   "origins",
+   "destinations"
+  ],
+  "req_named": [
+   "origins",
+   "destinations"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "origins",
+   "destinations"
+  ]
+ },
+ {
+  "pkg": "server-google-maps",
+  "tool": "maps_elevation",
+  "desc_len": 45,
+  "props": [
+   "locations"
+  ],
+  "required": [
+   "locations"
+  ],
+  "req_named": [
+   "locations"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "locations"
+  ]
+ },
+ {
+  "pkg": "server-google-maps",
+  "tool": "maps_directions",
+  "desc_len": 33,
+  "props": [
+   "origin",
+   "destination",
+   "mode"
+  ],
+  "required": [
+   "origin",
+   "destination"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "origin",
+   "destination"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-memory",
+  "tool": "create_entities",
+  "desc_len": 51,
+  "props": [
+   "entities"
+  ],
+  "required": [
+   "entities"
+  ],
+  "req_named": [
+   "entities"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "entities"
+  ]
+ },
+ {
+  "pkg": "server-memory",
+  "tool": "create_relations",
+  "desc_len": 106,
+  "props": [
+   "relations"
+  ],
+  "required": [
+   "relations"
+  ],
+  "req_named": [
+   "relations"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "relations"
+  ]
+ },
+ {
+  "pkg": "server-memory",
+  "tool": "add_observations",
+  "desc_len": 64,
+  "props": [
+   "observations"
+  ],
+  "required": [
+   "observations"
+  ],
+  "req_named": [
+   "observations"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "observations"
+  ]
+ },
+ {
+  "pkg": "server-memory",
+  "tool": "delete_entities",
+  "desc_len": 80,
+  "props": [
+   "entityNames"
+  ],
+  "required": [
+   "entityNames"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "entityNames"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-memory",
+  "tool": "delete_observations",
+  "desc_len": 65,
+  "props": [
+   "deletions"
+  ],
+  "required": [
+   "deletions"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "deletions"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-memory",
+  "tool": "delete_relations",
+  "desc_len": 50,
+  "props": [
+   "relations"
+  ],
+  "required": [
+   "relations"
+  ],
+  "req_named": [
+   "relations"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "relations"
+  ]
+ },
+ {
+  "pkg": "server-memory",
+  "tool": "search_nodes",
+  "desc_len": 56,
+  "props": [
+   "query"
+  ],
+  "required": [
+   "query"
+  ],
+  "req_named": [
+   "query"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "query"
+  ]
+ },
+ {
+  "pkg": "server-memory",
+  "tool": "open_nodes",
+  "desc_len": 57,
+  "props": [
+   "names"
+  ],
+  "required": [
+   "names"
+  ],
+  "req_named": [
+   "names"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "names"
+  ]
+ },
+ {
+  "pkg": "server-postgres",
+  "tool": "query",
+  "desc_len": 25,
+  "props": [
+   "sql"
+  ],
+  "required": [],
+  "req_named": [],
+  "req_unnamed": [],
+  "all_named": [
+   "sql"
+  ]
+ },
+ {
+  "pkg": "server-puppeteer",
+  "tool": "puppeteer_navigate",
+  "desc_len": 17,
+  "props": [
+   "url",
+   "launchOptions",
+   "allowDangerous"
+  ],
+  "required": [
+   "url"
+  ],
+  "req_named": [
+   "url"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "url"
+  ]
+ },
+ {
+  "pkg": "server-puppeteer",
+  "tool": "puppeteer_screenshot",
+  "desc_len": 59,
+  "props": [
+   "name",
+   "selector",
+   "width",
+   "height",
+   "encoded"
+  ],
+  "required": [
+   "name"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "name"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-puppeteer",
+  "tool": "puppeteer_click",
+  "desc_len": 28,
+  "props": [
+   "selector"
+  ],
+  "required": [
+   "selector"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "selector"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-puppeteer",
+  "tool": "puppeteer_fill",
+  "desc_len": 23,
+  "props": [
+   "selector",
+   "value"
+  ],
+  "required": [
+   "selector",
+   "value"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "selector",
+   "value"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-puppeteer",
+  "tool": "puppeteer_select",
+  "desc_len": 45,
+  "props": [
+   "selector",
+   "value"
+  ],
+  "required": [
+   "selector",
+   "value"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "selector",
+   "value"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-puppeteer",
+  "tool": "puppeteer_hover",
+  "desc_len": 28,
+  "props": [
+   "selector"
+  ],
+  "required": [
+   "selector"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "selector"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-puppeteer",
+  "tool": "puppeteer_evaluate",
+  "desc_len": 41,
+  "props": [
+   "script"
+  ],
+  "required": [
+   "script"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "script"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-sequential-thinking",
+  "tool": "sequentialthinking",
+  "desc_len": 2781,
+  "props": [
+   "thought",
+   "nextThoughtNeeded",
+   "thoughtNumber",
+   "totalThoughts",
+   "isRevision",
+   "revisesThought",
+   "branchFromThought",
+   "branchId",
+   "needsMoreThoughts"
+  ],
+  "required": [
+   "thought",
+   "nextThoughtNeeded",
+   "thoughtNumber",
+   "totalThoughts"
+  ],
+  "req_named": [
+   "thought",
+   "nextThoughtNeeded",
+   "thoughtNumber",
+   "totalThoughts"
+  ],
+  "req_unnamed": [],
+  "all_named": [
+   "thought",
+   "nextThoughtNeeded",
+   "thoughtNumber",
+   "totalThoughts",
+   "isRevision",
+   "revisesThought",
+   "branchFromThought",
+   "branchId",
+   "needsMoreThoughts"
+  ]
+ },
+ {
+  "pkg": "server-slack",
+  "tool": "slack_list_channels",
+  "desc_len": 68,
+  "props": [
+   "limit",
+   "cursor"
+  ],
+  "required": [],
+  "req_named": [],
+  "req_unnamed": [],
+  "all_named": []
+ },
+ {
+  "pkg": "server-slack",
+  "tool": "slack_post_message",
+  "desc_len": 37,
+  "props": [
+   "channel_id",
+   "text"
+  ],
+  "required": [
+   "channel_id",
+   "text"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "channel_id",
+   "text"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-slack",
+  "tool": "slack_reply_to_thread",
+  "desc_len": 43,
+  "props": [
+   "channel_id",
+   "thread_ts",
+   "text"
+  ],
+  "required": [
+   "channel_id",
+   "thread_ts",
+   "text"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "channel_id",
+   "thread_ts",
+   "text"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-slack",
+  "tool": "slack_add_reaction",
+  "desc_len": 33,
+  "props": [
+   "channel_id",
+   "timestamp",
+   "reaction"
+  ],
+  "required": [
+   "channel_id",
+   "timestamp",
+   "reaction"
+  ],
+  "req_named": [
+   "reaction"
+  ],
+  "req_unnamed": [
+   "channel_id",
+   "timestamp"
+  ],
+  "all_named": [
+   "reaction"
+  ]
+ },
+ {
+  "pkg": "server-slack",
+  "tool": "slack_get_channel_history",
+  "desc_len": 34,
+  "props": [
+   "channel_id",
+   "limit"
+  ],
+  "required": [
+   "channel_id"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "channel_id"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-slack",
+  "tool": "slack_get_thread_replies",
+  "desc_len": 35,
+  "props": [
+   "channel_id",
+   "thread_ts"
+  ],
+  "required": [
+   "channel_id",
+   "thread_ts"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "channel_id",
+   "thread_ts"
+  ],
+  "all_named": []
+ },
+ {
+  "pkg": "server-slack",
+  "tool": "slack_get_users",
+  "desc_len": 77,
+  "props": [
+   "cursor",
+   "limit"
+  ],
+  "required": [],
+  "req_named": [],
+  "req_unnamed": [],
+  "all_named": []
+ },
+ {
+  "pkg": "server-slack",
+  "tool": "slack_get_user_profile",
+  "desc_len": 52,
+  "props": [
+   "user_id"
+  ],
+  "required": [
+   "user_id"
+  ],
+  "req_named": [],
+  "req_unnamed": [
+   "user_id"
+  ],
+  "all_named": []
+ }
+]

@@ -1,0 +1,2139 @@
+[
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "read",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "read",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "read",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "read_nested",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs/spec.md"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "read_nested",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs/spec.md"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "read_nested",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs/spec.md"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "list",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "list",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "list",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>",
+   "pattern": "**/*.md"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "search",
+  "success": false,
+  "calls": 6,
+  "failed_calls": 4,
+  "first_call_args": {
+   "pattern": "**/*.md"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "search",
+  "success": false,
+  "calls": 6,
+  "failed_calls": 4,
+  "first_call_args": {
+   "pattern": "**/*.md"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "info",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "info",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "info",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "move",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "source": "<SANDBOX>/notes.txt",
+   "destination": "<SANDBOX>/renamed.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "move",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "source": "<SANDBOX>/notes.txt",
+   "destination": "<SANDBOX>/renamed.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "move",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "source": "<SANDBOX>/notes.txt",
+   "destination": "<SANDBOX>/renamed.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "multi",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "multi",
+  "success": true,
+  "calls": 5,
+  "failed_calls": 2,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "multi",
+  "success": true,
+  "calls": 7,
+  "failed_calls": 2,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "tree",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "tree",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "tree",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "read",
+  "success": false,
+  "error": "BrokenPipeError: [Errno 32] Broken pipe",
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "read",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "read",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "read_nested",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs/spec.md"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "read_nested",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs/spec.md"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "read_nested",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs/spec.md"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "list",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "list",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "list",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>",
+   "pattern": "**/*.md"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "search",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {
+   "pattern": "**/*.md"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "search",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {
+   "pattern": "**/*.md"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "info",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "info",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {
+   "file_path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "info",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "write",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "contents": "DONE"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "move",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "source": "<SANDBOX>/notes.txt",
+   "destination": "<SANDBOX>/renamed.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "move",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "source": "<SANDBOX>/notes.txt",
+   "destination": "<SANDBOX>/renamed.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "move",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "source": "<SANDBOX>/notes.txt",
+   "destination": "<SANDBOX>/renamed.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "multi",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "multi",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "multi",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "tree",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "tree",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "tree",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "read",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "read",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "read",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {
+   "file": "<SANDBOX>/notes.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "read_nested",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs/spec.md"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "read_nested",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs/spec.md"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "read_nested",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs/spec.md"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "list",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "list",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "list",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "search",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>",
+   "pattern": "**/*.md"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "search",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {
+   "pattern": "**/*.md"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "search",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {
+   "pattern": "**/*.md"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "info",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "info",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "info",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "write",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "contents": "DONE"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "write",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "contents": "DONE"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "move",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "source": "<SANDBOX>/notes.txt",
+   "destination": "<SANDBOX>/renamed.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "move",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "source": "<SANDBOX>/notes.txt",
+   "destination": "<SANDBOX>/renamed.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "move",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "source": "<SANDBOX>/notes.txt",
+   "destination": "<SANDBOX>/renamed.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "multi",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "multi",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "multi",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "full",
+  "task": "tree",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_norm",
+  "task": "tree",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-haiku-4-5",
+  "condition": "emptied_open",
+  "task": "tree",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "read",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "read",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "read",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "read_nested",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs/spec.md"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "read_nested",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "read_nested",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "list",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "list",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "list",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "search",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>",
+   "pattern": "*.md"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "search",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>",
+   "pattern": "*.md"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "search",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>",
+   "pattern": "*.md"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "info",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "info",
+  "success": true,
+  "calls": 4,
+  "failed_calls": 2,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "info",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "mkdir",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "move",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "source": "<SANDBOX>/notes.txt",
+   "destination": "<SANDBOX>/renamed.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "move",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "move",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "multi",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call_args": {
+   "paths": [
+    "<SANDBOX>/notes.txt",
+    "<SANDBOX>/docs/spec.md"
+   ]
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "multi",
+  "success": true,
+  "calls": 6,
+  "failed_calls": 2,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "multi",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "tree",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>"
+  },
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "tree",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "tree",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 0
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "read",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "read",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "read",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "read_nested",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs/spec.md"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "read_nested",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "read_nested",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs/spec.md"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "list",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "list",
+  "success": true,
+  "calls": 5,
+  "failed_calls": 2,
+  "first_call_args": {},
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "list",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "search",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>",
+   "pattern": "*.md"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "search",
+  "success": true,
+  "calls": 5,
+  "failed_calls": 1,
+  "first_call_args": {
+   "pattern": "*.md"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "search",
+  "success": true,
+  "calls": 5,
+  "failed_calls": 1,
+  "first_call_args": {
+   "pattern": "*.md"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "info",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "info",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "info",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "mkdir",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "move",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "source": "<SANDBOX>/notes.txt",
+   "destination": "<SANDBOX>/renamed.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "move",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "move",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "source": "<SANDBOX>/notes.txt",
+   "destination": "<SANDBOX>/renamed.txt"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "multi",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call_args": {
+   "paths": [
+    "<SANDBOX>/notes.txt",
+    "<SANDBOX>/docs/spec.md"
+   ]
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "multi",
+  "success": true,
+  "calls": 6,
+  "failed_calls": 2,
+  "first_call_args": {},
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "multi",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call_args": {
+   "paths": [
+    "<SANDBOX>/notes.txt",
+    "<SANDBOX>/docs/spec.md"
+   ]
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "tree",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>"
+  },
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "tree",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "tree",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 1
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "read",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "read",
+  "success": true,
+  "calls": 4,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "read",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "read_nested",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs/spec.md"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "read_nested",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "read_nested",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs/spec.md"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "list",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "list",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "list",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/docs"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "search",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>",
+   "pattern": "*.md"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "search",
+  "success": true,
+  "calls": 5,
+  "failed_calls": 1,
+  "first_call_args": {
+   "pattern": "*.md"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "search",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>",
+   "pattern": "*.md"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "info",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "info",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "info",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 2,
+  "first_call_args": {},
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "write",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/out.txt",
+   "content": "DONE"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "mkdir",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "mkdir",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/build"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "move",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "source": "<SANDBOX>/notes.txt",
+   "destination": "<SANDBOX>/renamed.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "move",
+  "success": true,
+  "calls": 4,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "move",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "source": "<SANDBOX>/notes.txt",
+   "destination": "<SANDBOX>/renamed.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "multi",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>/notes.txt"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "multi",
+  "success": true,
+  "calls": 4,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "multi",
+  "success": true,
+  "calls": 2,
+  "failed_calls": 0,
+  "first_call_args": {
+   "paths": [
+    "<SANDBOX>/notes.txt",
+    "<SANDBOX>/docs/spec.md"
+   ]
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "full",
+  "task": "tree",
+  "success": true,
+  "calls": 1,
+  "failed_calls": 0,
+  "first_call_args": {
+   "path": "<SANDBOX>"
+  },
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_norm",
+  "task": "tree",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 2
+ },
+ {
+  "model": "claude-sonnet-5",
+  "condition": "emptied_open",
+  "task": "tree",
+  "success": true,
+  "calls": 3,
+  "failed_calls": 1,
+  "first_call_args": {},
+  "seed": 2
+ }
+]

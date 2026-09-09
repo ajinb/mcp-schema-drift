@@ -1,0 +1,1162 @@
+[
+ {
+  "key": "server-github@0.5.1",
+  "pkg": "server-github",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-github@0.6.0",
+  "pkg": "server-github",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-github@0.6.1",
+  "pkg": "server-github",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-github@0.6.2",
+  "pkg": "server-github",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-github@2025.1.17",
+  "pkg": "server-github",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-github@2025.1.23",
+  "pkg": "server-github",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-github@2025.3.19",
+  "pkg": "server-github",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-github@2025.3.28",
+  "pkg": "server-github",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-github@2025.4.7",
+  "pkg": "server-github",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-github@2025.4.8",
+  "pkg": "server-github",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-gitlab@0.6.2",
+  "pkg": "server-gitlab",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-gitlab@2025.4.7",
+  "pkg": "server-gitlab",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-gitlab@2025.4.25",
+  "pkg": "server-gitlab",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-slack@0.2.0",
+  "pkg": "server-slack",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-slack@0.3.0",
+  "pkg": "server-slack",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-slack@0.5.0",
+  "pkg": "server-slack",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-slack@0.5.1",
+  "pkg": "server-slack",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-slack@0.6.0",
+  "pkg": "server-slack",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-slack@0.6.1",
+  "pkg": "server-slack",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-slack@0.6.2",
+  "pkg": "server-slack",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-slack@2025.1.17",
+  "pkg": "server-slack",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-slack@2025.4.25",
+  "pkg": "server-slack",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-postgres@0.1.0",
+  "pkg": "server-postgres",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-postgres@0.2.0",
+  "pkg": "server-postgres",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-postgres@0.3.0",
+  "pkg": "server-postgres",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-postgres@0.5.0",
+  "pkg": "server-postgres",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-postgres@0.5.1",
+  "pkg": "server-postgres",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-postgres@0.6.0",
+  "pkg": "server-postgres",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-postgres@0.6.1",
+  "pkg": "server-postgres",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-postgres@0.6.2",
+  "pkg": "server-postgres",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-puppeteer@0.2.0",
+  "pkg": "server-puppeteer",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-puppeteer@0.1.0",
+  "pkg": "server-puppeteer",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-puppeteer@0.3.0",
+  "pkg": "server-puppeteer",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-puppeteer@0.5.0",
+  "pkg": "server-puppeteer",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-puppeteer@0.5.1",
+  "pkg": "server-puppeteer",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-puppeteer@0.6.2",
+  "pkg": "server-puppeteer",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-brave-search@0.1.0",
+  "pkg": "server-brave-search",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-brave-search@0.2.0",
+  "pkg": "server-brave-search",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-puppeteer@2025.4.7",
+  "pkg": "server-puppeteer",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-puppeteer@2025.5.12",
+  "pkg": "server-puppeteer",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-brave-search@0.3.0",
+  "pkg": "server-brave-search",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-brave-search@0.5.0",
+  "pkg": "server-brave-search",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-brave-search@0.5.1",
+  "pkg": "server-brave-search",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-brave-search@0.6.0",
+  "pkg": "server-brave-search",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-brave-search@0.6.1",
+  "pkg": "server-brave-search",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-brave-search@0.6.2",
+  "pkg": "server-brave-search",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-google-maps@0.5.1",
+  "pkg": "server-google-maps",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-google-maps@0.6.0",
+  "pkg": "server-google-maps",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-google-maps@0.6.1",
+  "pkg": "server-google-maps",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-google-maps@0.6.2",
+  "pkg": "server-google-maps",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-filesystem@0.5.1",
+  "pkg": "server-filesystem",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@0.6.0",
+  "pkg": "server-filesystem",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@0.6.1",
+  "pkg": "server-filesystem",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@0.6.2",
+  "pkg": "server-filesystem",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@2025.1.14",
+  "pkg": "server-filesystem",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@2025.3.28",
+  "pkg": "server-filesystem",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@2025.7.1",
+  "pkg": "server-filesystem",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@2025.7.29",
+  "pkg": "server-filesystem",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@2025.8.18",
+  "pkg": "server-filesystem",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@2025.8.21",
+  "pkg": "server-filesystem",
+  "degraded": true,
+  "R1": true,
+  "R2": true,
+  "R3": true,
+  "R4": true,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@2025.12.18",
+  "pkg": "server-filesystem",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": true,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@2025.11.25",
+  "pkg": "server-filesystem",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": true,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@2026.1.14",
+  "pkg": "server-filesystem",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": true,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@2026.7.4",
+  "pkg": "server-filesystem",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": true,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@2026.7.10",
+  "pkg": "server-filesystem",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": true,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-filesystem@2026.8.31",
+  "pkg": "server-filesystem",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": true,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@0.2.0",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@0.1.0",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@0.3.0",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@0.5.0",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@0.5.1",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@0.6.0",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@0.6.1",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@0.6.2",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.1.14",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.3.19",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.4.8",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.4.25",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.4.28",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.5.12",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.7.1",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.7.29",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": true,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.8.4",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": true,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.8.18",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": true,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.9.12",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.9.24",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.9.25",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.11.25",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2025.12.18",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2026.1.14",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2026.1.26",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2026.7.4",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-everything@2026.8.18",
+  "pkg": "server-everything",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-memory@0.2.0",
+  "pkg": "server-memory",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-memory@0.3.0",
+  "pkg": "server-memory",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-memory@0.5.0",
+  "pkg": "server-memory",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-memory@0.5.1",
+  "pkg": "server-memory",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-memory@0.6.0",
+  "pkg": "server-memory",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-memory@0.6.2",
+  "pkg": "server-memory",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-memory@2025.4.25",
+  "pkg": "server-memory",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-memory@2025.8.4",
+  "pkg": "server-memory",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-memory@2025.9.24",
+  "pkg": "server-memory",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-memory@2025.9.25",
+  "pkg": "server-memory",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-memory@2025.11.25",
+  "pkg": "server-memory",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-memory@2026.1.26",
+  "pkg": "server-memory",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-memory@2026.7.4",
+  "pkg": "server-memory",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-memory@2026.8.31",
+  "pkg": "server-memory",
+  "degraded": false,
+  "R1": false,
+  "R2": true,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": true
+ },
+ {
+  "key": "server-sequential-thinking@0.5.1",
+  "pkg": "server-sequential-thinking",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-sequential-thinking@0.6.0",
+  "pkg": "server-sequential-thinking",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-sequential-thinking@0.6.1",
+  "pkg": "server-sequential-thinking",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-sequential-thinking@0.6.2",
+  "pkg": "server-sequential-thinking",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-sequential-thinking@2025.7.1",
+  "pkg": "server-sequential-thinking",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-sequential-thinking@2025.11.25",
+  "pkg": "server-sequential-thinking",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-sequential-thinking@2025.12.18",
+  "pkg": "server-sequential-thinking",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-sequential-thinking@2026.7.4",
+  "pkg": "server-sequential-thinking",
+  "degraded": true,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": true,
+  "R2_healthy_side": false
+ },
+ {
+  "key": "server-sequential-thinking@2026.8.31",
+  "pkg": "server-sequential-thinking",
+  "degraded": false,
+  "R1": false,
+  "R2": false,
+  "R3": false,
+  "R4": false,
+  "R2_healthy_side": false
+ }
+]

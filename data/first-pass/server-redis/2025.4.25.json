@@ -1,0 +1,7 @@
+{
+ "ok": false,
+ "error": "no/failed initialize (proto 2024-11-05)",
+ "package": "server-redis",
+ "version": "2025.4.25",
+ "published": "2025-04-25"
+}

@@ -1,0 +1,669 @@
+{
+ "rows": [
+  {
+   "pkg": "server-everything",
+   "versions": 27,
+   "transitions": 26,
+   "span_months": 20.92641261498029,
+   "first": "2024-11-19",
+   "last": "2026-08-18",
+   "breaking_trans": 2,
+   "semantic_trans": 1,
+   "tools_first": 5,
+   "tools_last": 13
+  },
+  {
+   "pkg": "server-filesystem",
+   "versions": 16,
+   "transitions": 15,
+   "span_months": 21.156373193166885,
+   "first": "2024-11-25",
+   "last": "2026-08-31",
+   "breaking_trans": 1,
+   "semantic_trans": 5,
+   "tools_first": 9,
+   "tools_last": 14
+  },
+  {
+   "pkg": "server-github",
+   "versions": 10,
+   "transitions": 9,
+   "span_months": 4.402102496714849,
+   "first": "2024-11-25",
+   "last": "2025-04-08",
+   "breaking_trans": 1,
+   "semantic_trans": 0,
+   "tools_first": 9,
+   "tools_last": 26
+  },
+  {
+   "pkg": "server-gitlab",
+   "versions": 3,
+   "transitions": 2,
+   "span_months": 4.664914586070959,
+   "first": "2024-12-04",
+   "last": "2025-04-25",
+   "breaking_trans": 0,
+   "semantic_trans": 0,
+   "tools_first": 9,
+   "tools_last": 9
+  },
+  {
+   "pkg": "server-memory",
+   "versions": 14,
+   "transitions": 13,
+   "span_months": 21.28777923784494,
+   "first": "2024-11-21",
+   "last": "2026-08-31",
+   "breaking_trans": 0,
+   "semantic_trans": 0,
+   "tools_first": 9,
+   "tools_last": 9
+  },
+  {
+   "pkg": "server-postgres",
+   "versions": 8,
+   "transitions": 7,
+   "span_months": 0.49277266754270693,
+   "first": "2024-11-19",
+   "last": "2024-12-04",
+   "breaking_trans": 0,
+   "semantic_trans": 0,
+   "tools_first": 1,
+   "tools_last": 1
+  },
+  {
+   "pkg": "server-sequential-thinking",
+   "versions": 9,
+   "transitions": 8,
+   "span_months": 20.893561103810775,
+   "first": "2024-12-03",
+   "last": "2026-08-31",
+   "breaking_trans": 1,
+   "semantic_trans": 2,
+   "tools_first": 1,
+   "tools_last": 1
+  },
+  {
+   "pkg": "server-slack",
+   "versions": 9,
+   "transitions": 8,
+   "span_months": 5.091984231274639,
+   "first": "2024-11-21",
+   "last": "2025-04-25",
+   "breaking_trans": 0,
+   "semantic_trans": 1,
+   "tools_first": 8,
+   "tools_last": 8
+  }
+ ],
+ "breaking": [
+  [
+   "server-everything",
+   "2025.8.18",
+   "2025.9.12",
+   "B1 tool removed",
+   "startElicitation",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "B1 tool removed",
+   "add",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "B1 tool removed",
+   "longRunningOperation",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "B1 tool removed",
+   "printEnv",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "B1 tool removed",
+   "sampleLLM",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "B1 tool removed",
+   "getTinyImage",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "B1 tool removed",
+   "annotatedMessage",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "B1 tool removed",
+   "getResourceReference",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "B1 tool removed",
+   "getResourceLinks",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "B1 tool removed",
+   "structuredContent",
+   ""
+  ],
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "B1 tool removed",
+   "zip",
+   ""
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "create_directory",
+   "path"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "directory_tree",
+   "path"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "edit_file",
+   "path"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "edit_file",
+   "edits"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "get_file_info",
+   "path"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "list_directory",
+   "path"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "list_directory_with_sizes",
+   "path"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "move_file",
+   "source"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "move_file",
+   "destination"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "read_file",
+   "path"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "read_media_file",
+   "path"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "read_multiple_files",
+   "paths"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "read_text_file",
+   "path"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "search_files",
+   "path"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "search_files",
+   "pattern"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "write_file",
+   "path"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "B2 required param added",
+   "write_file",
+   "content"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_branch",
+   "owner"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_branch",
+   "repo"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_branch",
+   "branch"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_issue",
+   "owner"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_issue",
+   "repo"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_issue",
+   "title"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_or_update_file",
+   "owner"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_or_update_file",
+   "repo"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_or_update_file",
+   "path"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_or_update_file",
+   "content"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_or_update_file",
+   "message"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_or_update_file",
+   "branch"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_pull_request",
+   "owner"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_pull_request",
+   "repo"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_pull_request",
+   "title"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_pull_request",
+   "head"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_pull_request",
+   "base"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "create_repository",
+   "name"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "fork_repository",
+   "owner"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "fork_repository",
+   "repo"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "get_file_contents",
+   "owner"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "get_file_contents",
+   "repo"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "get_file_contents",
+   "path"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "push_files",
+   "owner"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "push_files",
+   "repo"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "push_files",
+   "branch"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "push_files",
+   "files"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "push_files",
+   "message"
+  ],
+  [
+   "server-github",
+   "0.6.2",
+   "2025.1.17",
+   "B2 required param added",
+   "search_repositories",
+   "query"
+  ],
+  [
+   "server-sequential-thinking",
+   "2026.7.4",
+   "2026.8.31",
+   "B4 param type changed",
+   "sequentialthinking",
+   "isRevision: boolean -> [\"boolean\", \"string\"]"
+  ],
+  [
+   "server-sequential-thinking",
+   "2026.7.4",
+   "2026.8.31",
+   "B4 param type changed",
+   "sequentialthinking",
+   "needsMoreThoughts: boolean -> [\"boolean\", \"string\"]"
+  ],
+  [
+   "server-sequential-thinking",
+   "2026.7.4",
+   "2026.8.31",
+   "B4 param type changed",
+   "sequentialthinking",
+   "nextThoughtNeeded: boolean -> [\"boolean\", \"string\"]"
+  ]
+ ],
+ "semantic": [
+  [
+   "server-everything",
+   "2025.12.18",
+   "2026.1.14",
+   "description changed",
+   "echo",
+   "21->28 chars"
+  ],
+  [
+   "server-filesystem",
+   "2025.3.28",
+   "2025.7.1",
+   "description changed",
+   "read_file",
+   "263->395 chars"
+  ],
+  [
+   "server-filesystem",
+   "2025.7.1",
+   "2025.7.29",
+   "description changed",
+   "list_allowed_directories",
+   "156->161 chars"
+  ],
+  [
+   "server-filesystem",
+   "2025.7.1",
+   "2025.7.29",
+   "description changed",
+   "read_file",
+   "395->85 chars"
+  ],
+  [
+   "server-filesystem",
+   "2025.7.29",
+   "2025.8.18",
+   "description changed",
+   "list_allowed_directories",
+   "161->248 chars"
+  ],
+  [
+   "server-filesystem",
+   "2025.8.21",
+   "2025.11.25",
+   "description changed",
+   "search_files",
+   "332->424 chars"
+  ],
+  [
+   "server-filesystem",
+   "2026.7.4",
+   "2026.7.10",
+   "description changed",
+   "read_media_file",
+   "114->234 chars"
+  ],
+  [
+   "server-sequential-thinking",
+   "2025.7.1",
+   "2025.11.25",
+   "description changed",
+   "sequentialthinking",
+   "2780->2783 chars"
+  ],
+  [
+   "server-sequential-thinking",
+   "2025.11.25",
+   "2025.12.18",
+   "description changed",
+   "sequentialthinking",
+   "2783->2781 chars"
+  ],
+  [
+   "server-slack",
+   "2025.1.17",
+   "2025.4.25",
+   "description changed",
+   "slack_list_channels",
+   "53->68 chars"
+  ]
+ ],
+ "totals": {
+  "transitions": 88,
+  "breaking": 5,
+  "semantic": 9
+ }
+}
