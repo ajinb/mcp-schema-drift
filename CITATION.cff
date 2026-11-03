@@ -1,10 +1,20 @@
 cff-version: 1.2.0
 title: "mcp-schema-drift: protocol-level probing of published MCP server releases under controlled dependency resolution"
-message: "If you use this artifact, please cite the accompanying paper."
+message: "If you use this artifact or the mcp-surface tool, please cite it using the metadata below."
 type: software
 authors:
   - family-names: Baby
     given-names: Ajin
+    orcid: "https://orcid.org/0009-0007-6190-9516"
 repository-code: "https://github.com/ajinb/mcp-schema-drift"
+url: "https://cloudandsre.com"
+abstract: "Dataset, tooling and a CI guard (mcp-surface) for deployment-induced schema loss in Model Context Protocol servers: the same pinned server release can advertise emptied tool schemas depending on how its dependencies resolve."
 license: Apache-2.0
-date-released: 2026-09-09
+version: "1.1.0"
+date-released: "2026-11-03"
+keywords:
+  - model-context-protocol
+  - schema-drift
+  - software-supply-chain
+  - ai-agents
+  - dataset

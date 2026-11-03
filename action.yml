@@ -1,0 +1,32 @@
+name: MCP surface check
+description: Fail the build when an MCP server advertises emptied or drifted tool schemas.
+branding:
+  icon: shield
+  color: blue
+inputs:
+  command:
+    description: Server command line, e.g. "npx -y @modelcontextprotocol/server-github"
+    required: true
+  baseline:
+    description: Path to a lockfile from `mcp-surface snapshot` (omit to run only the total-loss check)
+    required: false
+    default: ""
+  timeout:
+    description: Handshake timeout in seconds
+    required: false
+    default: "120"
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: python3 -m pip install --quiet "${{ github.action_path }}"
+    - shell: bash
+      env:
+        MCP_SURFACE_COMMAND: ${{ inputs.command }}
+        MCP_SURFACE_BASELINE: ${{ inputs.baseline }}
+        MCP_SURFACE_TIMEOUT: ${{ inputs.timeout }}
+      run: |
+        read -r -a server <<< "$MCP_SURFACE_COMMAND"
+        args=(check --timeout "$MCP_SURFACE_TIMEOUT")
+        if [ -n "$MCP_SURFACE_BASELINE" ]; then args+=(--baseline "$MCP_SURFACE_BASELINE"); fi
+        mcp-surface "${args[@]}" -- "${server[@]}"
