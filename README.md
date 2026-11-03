@@ -71,13 +71,43 @@ python3 tooling/severity_memory.py --models claude-haiku-4-5,claude-sonnet-5 --s
 spurious `EACCES` failures that look like unreconstructible releases. Three releases in an early
 run were nearly reported as such; they reconstruct cleanly against a fresh cache.
 
-## Checking your own deployment
+## Guard your own deployment: `mcp-surface`
 
-The cheapest useful check, which catches every total-loss case in the study with no false
-positives at about two microseconds per surface: reject a `tools/list` response in which
-**every** advertised tool has an empty input schema. Rejecting one in which **any** tool has an
-empty schema is not usable, as 57 of 116 healthy surfaces contain a legitimately parameterless
-tool. Catching the subtler required-set case needs a recorded baseline to diff against.
+The study's mitigation, packaged. `mcp-surface` speaks MCP over stdio (handshake, paginated
+`tools/list`), then applies the two checks the paper evaluated:
+
+- **Total-loss check (R1)** — reject a surface in which **every** tool has an empty input schema.
+  It catches every total-loss case in the study with no false positives, at about two
+  microseconds per surface, and needs no baseline. ("Any tool empty" is deliberately not offered:
+  57 of 116 healthy surfaces contain a legitimately parameterless tool.)
+- **Lockfile diff (R4)** — record the surface once, then fail on breaking drift: a tool or
+  property removed, a schema emptied, a type changed, an argument newly required. Description-only
+  changes are warnings.
+
+```bash
+pip install "git+https://github.com/ajinb/mcp-schema-drift@v1.1.0"   # stdlib only, no dependencies
+
+# Record what your pinned server advertises today
+mcp-surface snapshot --out mcp-surface.lock.json -- npx -y @modelcontextprotocol/server-github@0.5.1
+
+# In CI or at agent startup: exit 1 on total loss, 2 on breaking drift, 0 when the surface holds
+mcp-surface check --baseline mcp-surface.lock.json -- npx -y @modelcontextprotocol/server-github@0.5.1
+
+# Offline, against a captured tools/list result
+mcp-surface check --tools-json tools_list.json --json
+```
+
+As a GitHub Action:
+
+```yaml
+- uses: ajinb/mcp-schema-drift@v1.1.0
+  with:
+    command: npx -y @modelcontextprotocol/server-github@0.5.1
+    baseline: mcp-surface.lock.json
+```
+
+Commit the lockfile next to the server pin. A dependency update that silently empties schemas
+now fails the build instead of reaching an agent.
 
 ## Data notes
 
